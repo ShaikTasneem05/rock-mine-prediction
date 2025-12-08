@@ -1,0 +1,21 @@
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# IDE files
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ignore large data files (optional)
+# data/sonar_data.csv
+
+# Jupyter notebook checkpoints (if any)
+.ipynb_checkpoints/
