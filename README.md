@@ -1,32 +1,55 @@
 **Rock vs Mine Prediction using ML**
 
-*Description:*
+——————————————————————————————————————————————————————————————
+
+**Description:**
+
 A simple Machine Learning project to predict whether an underwater object is a Rock or a Mine using sonar signals. This is a learning project done to practice ML concepts with Python.
 
-*How to Use*
+**What I Learned**
 
-Clone the repository
-git clone https://github.com/ShaikTasneem05/rock-mine-prediction.git
+How to load and preprocess a real dataset using pandas
 
-cd rock-mine-prediction
+How to split data into features (X) and labels (Y)
 
-Install dependencies
-pip install -r requirements.txt
+How a machine learning model learns from training data
 
-Run the project
-python app.py
+How to use a trained model to make real-time predictions
 
-Enter 60 sonar values (space-separated) when prompted.
+How to take user input and reshape data for prediction
 
-See the prediction
-✅ The object is a Rock
-or
-🚨 The object is a Mine
+**How to Use**
 
-*Sample Input & Output*
+1)Clone the repository
 
-Sample Input:
-0.0664 0.0575 0.0842 0.0372 0.0458 0.0771 0.0771 0.113 0.2353 0.1838 0.2869 0.4129 0.3647 0.1984 0.284 0.4039 0.5837 0.6792 0.6086 0.4858 0.3246 0.2013 0.2082 0.1686 0.2484 0.2736 0.2984 0.4655 0.699 0.7474 0.7956 0.7981 0.6715 0.6942 0.744 0.8169 0.8912 1 0.8753 0.7061 0.6803 0.5898 0.4618 0.3639 0.1492 0.1216 0.1306 0.1198 0.0578 0.0235 0.0135 0.0141 0.019 0.0043 0.0036 0.0026 0.0024 0.0162 0.0109 0.0079
+  git clone https://github.com/ShaikTasneem05/rock-mine-prediction.git
+  
+  cd rock-mine-prediction
+  
+2)Install dependencies
 
-Sample Output:
+  pip install -r requirements.txt
+  
+3)Run the project
+
+  python app.py
+  
+4)Enter 60 sonar values (space-separated) when prompted.
+
+5)See the prediction
+
+  The object is a Rock
+  
+  or
+  
+  The object is a Mine
+  
+
+**Sample Input:**
+
+0.02 0.037 0.042 0.020 0.095 0.030 0.040 0.050 0.065 0.070 0.080 0.015 0.025 0.035 0.045 0.055 0.060 0.065 0.070 0.075 0.080 0.085 0.090 0.095 0.100 0.105 0.110 0.115 0.120 0.125 0.130 0.135 0.140 0.145 0.150 0.155 0.160 0.165 0.170 0.175 0.180 0.185 0.190 0.195 0.200 0.205 0.210 0.215 0.220 0.225 0.230 0.235 0.240 0.245 0.250 0.255 0.260 0.265 0.270 0.275
+
+**Sample Output:**
+
 The object is a Rock
+
